@@ -3,8 +3,7 @@ function getRandomValue(min, max) {
 }
 
 const app = Vue.createApp({
-    data() {
-        
+    data() {   
         return {
             playerHealth: 100,
             monsterHealth: 100,
